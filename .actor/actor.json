@@ -3,7 +3,7 @@
 	"name": "my-actor",
 	"title": "Scrape single page in Python",
 	"description": "Scrape data from single page with provided URL.",
-	"version": "0.0",
+	"version": "0.1",
 	"meta": {
 		"templateId": "python-start"
 	},

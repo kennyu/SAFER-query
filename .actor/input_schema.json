@@ -3,12 +3,6 @@
     "type": "object",
     "schemaVersion": 1,
     "properties": {
-        "url": {
-            "title": "URL of the page",
-            "type": "string",
-            "description": "The URL of website you want to get the data from.",
-            "editor": "textfield"
-        },
         "query_string": {
             "title": "USDOT Number",
             "type": "string",
@@ -16,5 +10,5 @@
             "editor": "textfield"
         }
     },
-    "required": ["url","query_string"]
+    "required": ["query_string"]
 }

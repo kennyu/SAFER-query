@@ -27,7 +27,7 @@ async def main() -> None:
     async with Actor:
         # Structure of input is defined in input_schema.json
         actor_input = await Actor.get_input() or {}
-        url = actor_input.get('url')
+        url = "https://safer.fmcsa.dot.gov/query.asp"
         query_string = actor_input.get('query_string')
 
         # Create an asynchronous HTTPX client
