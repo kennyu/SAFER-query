@@ -1,0 +1,20 @@
+{
+    "title": "Scrape data from a web page",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "url": {
+            "title": "URL of the page",
+            "type": "string",
+            "description": "The URL of website you want to get the data from.",
+            "editor": "textfield"
+        },
+        "query_string": {
+            "title": "USDOT Number",
+            "type": "string",
+            "description": "USDOT Number you want to search",
+            "editor": "textfield"
+        }
+    },
+    "required": ["url","query_string"]
+}
