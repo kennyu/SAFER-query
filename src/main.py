@@ -47,4 +47,6 @@ async def main() -> None:
         last_element = last_td.contents[-1].strip()
 
         # Save headings to Dataset - a table-like storage
-        await Actor.push_data({"driver_out_of_service_percentage": last_element })
+        await Actor.push_data({"driver_out_of_service_percentage": last_element, "usdot_num": query_string})
+
+        return {"driver_out_of_service_percentage": last_element }
