@@ -49,4 +49,4 @@ async def main() -> None:
         drivers = soup.select_one("td:contains('Drivers') + td").get_text(strip=True)
 
         # Save headings to Dataset - a table-like storage
-        await Actor.push_data({"driver_out_of_service_percentage": last_element, { "drivers": drivers })
+        await Actor.push_data({"driver_out_of_service_percentage": last_element, "drivers": drivers })
